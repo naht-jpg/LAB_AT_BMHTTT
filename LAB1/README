@@ -3,9 +3,7 @@
 ## Lab 1: Bắt gói tin Telnet - SSH
 
 ## Nội dung thực hiện:
-Đã thực hiện kết nối cả 3 máy với nhau, sử dụng kali linux làm server (10.0.0.1), 
-windows 11 trong vmware làm client (10.0.0.2) và máy thật có wireshark làm attacker (10.0.0.3) 
-cùng kết nối trong mạng nội bộ 10.0.0.0/24 thông qua VMnet3 sau đó tạo 1 user mới trên server, và tiến hành bắt gói tin khi thực hiện kết tối telnet và ssh từ máy client đến server. Qua wireshark từ máy attacker thu thập thông tin gói tin telnet và ssh, sau đó phân tích các gói tin này để tìm hiểu về cách thức hoạt động của các giao thức này, cũng như các so sánh khả năng bảo vệ dữ liệu của Telnet và SSH thông qua kết quả bắt gói bằng Wireshark.
+Đã thực hiện kết nối cả 3 máy với nhau, sử dụng kali linux làm server (10.0.0.1), windows 11 trong vmware làm client (10.0.0.2) và máy thật có wireshark làm attacker (10.0.0.3) cùng kết nối trong mạng nội bộ 10.0.0.0/24 thông qua VMnet3 sau đó tạo 1 user mới trên server, và tiến hành bắt gói tin khi thực hiện kết tối telnet và ssh từ máy client đến server. Qua wireshark từ máy attacker thu thập thông tin gói tin telnet và ssh, sau đó phân tích các gói tin này để tìm hiểu về cách thức hoạt động của các giao thức này, cũng như các so sánh khả năng bảo vệ dữ liệu của Telnet và SSH thông qua kết quả bắt gói bằng Wireshark.
 
 ## Kết quả thực hiện:
 - Đã thiết lập thành công mô hình mạng gồm:
