@@ -24,7 +24,7 @@
 4. Tạm chuyển VM sang NAT khi cần Internet để cài Python 3.14.7, Wireshark 4.6.8 và tải Sysinternals từ nguồn Microsoft chính thức.
 5. Kiểm tra phiên bản Sysmon, Autoruns, Process Explorer, Python và Wireshark trước khi thực hành.
 6. Chuyển VM về Host-only để thực hiện các tình huống cục bộ; chỉ bật NAT tạm thời ở bước HTTPS khi cần Internet.
-7. Cài Sysmon với cấu hình của LAB và thu baseline hệ thống/Autoruns trước khi tạo các artefact thử nghiệm.
+7. Cài Sysmon với cấu hình của LAB và thu baseline hệ thống/Autoruns trước khi tạo các artifact thử nghiệm.
 
 ## Các tình huống đã thực hiện
 | Tình huống | Nội dung | Kết quả |
@@ -36,7 +36,7 @@
 | TH5 | Capture HTTP loopback và so sánh với traffic HTTPS/TLS | PASS |
 | TH6 | Local load test giới hạn trên 127.0.0.1:8080, phân tích dataset DDoS và mail bombing offline | PASS |
 | TH7 | Phân tích phishing và phân loại các tình huống Social Engineering offline | PASS |
-| Cleanup | Xóa artefact LAB, dừng listener, xóa tài khoản thử nghiệm, kiểm tra Defender và tính SHA-256 Evidence | PASS |
+| Cleanup | Xóa artifact LAB, dừng listener, xóa tài khoản thử nghiệm, kiểm tra Defender và tính SHA-256 Evidence | PASS |
 
 ## Kết quả chính
 - Microsoft Defender vẫn được giữ bật trong quá trình thực hành và phát hiện/cách ly mẫu EICAR.
@@ -44,7 +44,7 @@
 - Sysmon, Autoruns và Process Explorer được sử dụng để tương quan persistence, tiến trình và listener cục bộ.
 - HTTP cho phép quan sát Request URI dạng plaintext; HTTPS/TLS che nội dung ứng dụng nhưng vẫn để lộ một số metadata mạng.
 - `local_load_test.py` chỉ chạy với target `127.0.0.1:8080`; không thực hiện DDoS, mail bomb, spoofing hoặc MITM chủ động trên mạng bên ngoài VM.
-- Sau cleanup, các artefact thử nghiệm được loại bỏ và các file Evidence được tính SHA-256.
+- Sau cleanup, các artifact thử nghiệm được loại bỏ và các file Evidence được tính SHA-256.
 
 ## Lỗi gặp phải và cách khắc phục
 1. **Winget không mở được source khi VM ở Host-only**  
