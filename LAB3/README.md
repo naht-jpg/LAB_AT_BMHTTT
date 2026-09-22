@@ -66,21 +66,3 @@
 5. **Tạo `evidence_sha256.csv` bị lỗi file đang được sử dụng**  
    Nguyên nhân: file `evidence_sha256.csv` cũ vừa nằm trong tập file cần hash vừa là file output.  
    Khắc phục: xóa file cũ hoặc loại `evidence_sha256.csv` khỏi danh sách đầu vào trước khi tạo lại.
-
-## Cấu trúc nộp bài
-```text
-LAB3/
-├── README.md
-├── 11CNPM1-LAB3_1150080068-TranMinhNhat.docx
-├── evidence_sha256.csv
-└── Evidence/
-    ├── các file output/log đã làm sạch
-    └── ...
-```
-
-## Lưu ý
-- Không upload installer hoặc executable của Sysinternals/Wireshark/Python.
-- Không upload file EICAR bị Defender quarantine.
-- Không upload mật khẩu, token/API key, cookie/session, email thật hoặc dữ liệu cá nhân.
-- Các log trước khi đưa lên GitHub phải được kiểm tra và làm sạch thông tin không cần thiết có thể định danh hệ thống thật.
-- Repository `LAB_AT_BMHTTT` được đặt ở chế độ Public và cần kiểm tra lại bằng cửa sổ trình duyệt không đăng nhập trước khi nộp URL lên Google Classroom.
