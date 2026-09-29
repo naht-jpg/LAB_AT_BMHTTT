@@ -1,0 +1,10 @@
+# Nmap 7.99 scan initiated Tue Sep 29 05:07:17 2026 as: /usr/lib/nmap/nmap -sV -p 8000 -oN windows_before.txt 192.168.40.131
+Nmap scan report for 192.168.40.131
+Host is up (0.0014s latency).
+
+PORT     STATE SERVICE VERSION
+8000/tcp open  http    SimpleHTTPServer 0.6 (Python 3.14.7)
+MAC Address: 00:0C:29:E1:D6:84 (VMware)
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Tue Sep 29 05:07:28 2026 -- 1 IP address (1 host up) scanned in 11.17 seconds
