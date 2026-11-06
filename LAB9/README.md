@@ -1,11 +1,11 @@
-# LAB 10 - REMOTE DNS CACHE POISONING TRONG MÔI TRƯỜNG pfSense CÔ LẬP
+# LAB 9 - REMOTE DNS CACHE POISONING TRONG MÔI TRƯỜNG pfSense CÔ LẬP
 
 ## Thông tin sinh viên
 
 -   **Họ và tên:** Trần Minh Nhật
 -   **MSSV:** 1150080068
 -   **Lớp:** 11CNPM1
--   **Ngày thực hiện:** 03/11/2026
+-   **Ngày thực hiện:** 06/11/2026
 
 ------------------------------------------------------------------------
 
